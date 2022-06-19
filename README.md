@@ -18,3 +18,13 @@
 
 **Fácil de Mover**. Podemos ejecutar un container en distintas máquinas y siempre ejecutaría sin errores. Muy bueno para etapas de desarrollo, donde puedo hacer la app en mi máquina y luego probarla en la máquina donde va a ser utilizada.
 
+## ¿Cómo crear un Container?
+El camino completo para crear un Docker Container es: 
+- Dockerfile. Definimos un dockerfile con todas las dependencias necesarias para nuestra app.
+- Docker Image. Creamos una imagen a partir del dockerfile construido anteriormente.
+- Docker Container. Ejecutando un "docker run" de la imagen construida creamos un container de nuestra aplicación.
+
+La imagen muestra el camino que describimos:
+
+
+![docker2](https://user-images.githubusercontent.com/42939877/174488942-8bca63f9-0a36-461f-b4a5-295cae0524be.png)
