@@ -11,9 +11,9 @@
 Creamos el codigo fuente, es un index.php para imprimir el hello world.
 
 ### Step 2: **Create Dockerfile**
-La primera linea de codigo es el FROM que hace referencia a una imagen que normalmente trae un SO (ejemplo alpine, ubuntu, etc) preinstalado y algunas depedencias. Una buena practica es usar imagenes oficiales en docker-hub.
+La primera linea de codigo es el FROM que hace referencia a una imagen que normalmente trae un SO (ejemplo alpine, ubuntu, etc) preinstalado y algunas depedencias. 
 
-Buscamos en docker-hub si hay alguna imagen con php y apache preinstalados y encontramos "php:7.4.1-apache-buster" imagen oficial de php.
+Una buena practica es usar imagenes oficiales en docker-hub. Buscamos en docker-hub si hay alguna imagen con php y apache preinstalados y encontramos "php:7.4.1-apache-buster" imagen oficial de php.
 
 ### Step 3: **Docker Build**
 Construir la imagen ejecutando el siguiente comando: "docker build -t hola-php ."
