@@ -41,8 +41,6 @@ Dejando activo el contenedor actual y abriendo otra terminal, modificamos el ind
 
 ![Edit_vol](https://user-images.githubusercontent.com/42939877/174505238-4f1ded29-7f58-43b8-84a3-c36c4d0501cc.png)
 
-
-
-
-
 ![web_edit](https://user-images.githubusercontent.com/42939877/174505248-af878054-bff3-487a-9bb4-31278b89c593.png)
+
+Esto es un recurso muy bueno para desarrollo de aplicaciones, poder hacer modificaciones en el codigo y ver los cambios en tiempo real, sin tener que reconstruir el contenedor.
