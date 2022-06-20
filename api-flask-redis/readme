@@ -1,2 +1,0 @@
-- creamos una imagen a partir de dockerfile. Esta imagen es una app con flask.
-- creamos una segunda imagen con docker compose(base de datos redis para conectarse con la app flask), y usamos docker compose para comunicar ambos contenedores.
