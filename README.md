@@ -3,7 +3,7 @@
 
 
 # Docker
-### El objetivo general de este repositorio es realizar distintas aplicaciones con docker para ganar conocimiento con esta herramienta. Las aplicaciones que tenemos construidas son:
+El objetivo general de este repositorio es realizar distintas aplicaciones con docker para ganar conocimiento con esta herramienta. Las aplicaciones que tenemos construidas son:
 
 - Hello World!
 - Docker mas Flask API
