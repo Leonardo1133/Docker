@@ -34,4 +34,4 @@ Finalmente tenemos un file CSV con los datos de conexion listos para ser analiza
 
 ![dockerrun](https://user-images.githubusercontent.com/42939877/175822728-a40433f1-2c0f-4c26-9aa7-26ea9ca7fea5.png)
 
-Nota: Algo que agregue es que el CSV resultante generado dentro del contenedor se replicado en nuestra maquina local. Esta es otra ventaja que aprovechamos de los volumenes compartidos.
+Nota: Para tener el CSV disponible en nuestra maquina local, lo que hice fue ir guardando los datos en el mismo volumen compartido. Esto lo va haciendo en cada iteracion del bucle, por lo que podemos consultar los datos en tiempo de ejecucion. 
