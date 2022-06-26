@@ -10,8 +10,14 @@ Creamos un Dockerfile para construir la imagen que finalmente utilizaremos para 
 
 ### Step 2: Docker Build
 Ya creado el Dockerfile con las dependencias, el paso siguiente es construir la imagen de docker con el siguiente comando:
+
 `sudo docker build -t app-speed .`
 
 ### Step 3: Docker Run
 Teniendo la imagen de docker construida a partir del Dockerfile, podemos ejecutarla para crear un contenedor con la app en funcionamiento. Con el siguiente comando:
+
 `docker run -it -v /home/leo/dev/repos/docker/appSpeed/:/usr/src/app app-speed appTestConnection.py`
+
+- Usamos `docker run` para ejecutar el contenedor a partir de la imagen
+- Parametro `-it` para que una vez corriendo se pueda interactuar con el mismo.
+- Parametro `-v` para asociar un directorio local con uno propio del contenedor.
