@@ -21,3 +21,8 @@ Teniendo la imagen de docker construida a partir del Dockerfile, podemos ejecuta
 - Usamos `docker run` para ejecutar el contenedor a partir de la imagen
 - Parametro `-it` para que una vez corriendo se pueda interactuar con el mismo.
 - Parametro `-v` para asociar un directorio local con uno propio del contenedor.
+
+### Result
+Finalmente tenemos un file CSV con los datos de conexion listos para ser analizados, incluso podemos crear algun modelo de machine learning para predicciones de nuestra conexion.
+
+Nota: Algo que agregue es que el CSV resultante generado dentro del contenedor se replicado en nuestra maquina local. Esta es otra ventaja que aprovechamos de los volumenes compartidos.
