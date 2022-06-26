@@ -16,6 +16,7 @@ Ya creado el Dockerfile con las dependencias, el paso siguiente es construir la 
 - Usamos `docker build` para construir la imagen a partir del Dockerfile.
 - Parametro `-t`
 - `app-test-connection` es el nombre que elegimos para nuestra imagen docker.
+- El punto `.` indica a docker que busque en el directorio actual el Dockerfile para hacer el build.
 
 ### Step 3: Docker Run
 Teniendo la imagen de docker construida a partir del Dockerfile, podemos ejecutarla para crear un contenedor con la app en funcionamiento. Con el siguiente comando:
