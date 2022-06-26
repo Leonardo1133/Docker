@@ -6,5 +6,5 @@
 La idea de este repo es crear un contenedor que ejecute nuestra appTestConnection creada en el [repo de python](https://github.com/Leonardo1133/Python/tree/main/appSpeed) para poder ejecutarla de forma aislada de nuestro sistema y tambien para que pueda ser usada en distintos entornos gracias a las ventajas que tiene docker.
 
 ### Step 1: Dockerfile create
-Creamos un Dockerfile de la imagen que utilizaremos para crear nuestro contenedor. Dockerfile tendra todas las dependencias necesarias como Python, Pandas y speedtest.
+Creamos un Dockerfile para construir la imagen que finalmente utilizaremos para ejecutar nuestro contenedor. Dockerfile tendra todas las dependencias necesarias como Python, Pandas y speedtest.
 
